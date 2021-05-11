@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script class="include" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" type="372cfe14f3ec802e453f915a-text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous" type="372cfe14f3ec802e453f915a-text/javascript"></script>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/stock.js"></script>
+    <title>Index</title>
+</head>
+<body>
+    <div>
+       Toggle View: <button id="btToggleDisplay" class="btn btn-primary"><i class="fa fa-table fa-lg" aria-hidden="true"></i> <i class="fa fa-arrows-h fa-lg" aria-hidden="true"></i> <i class="fa fa-id-card-o fa-lg" aria-hidden="true"></i></button>
+    </div>
+    <div class="col-10 bg-dark text-white"><span id="row-data"></span></div>
+    <div>
+       <table id="example" class="table table-sm table-hover">
+           <thead>
+               <tr>
+                   <th>Date</th>
+                   <th>Open</th>
+                   <th>High</th>
+                   <th>Low</th>
+                   <th>Close</th>
+                   <th>Adj Close</th>
+                   <th>Volume</th>
+               </tr>
+           </thead>
+           <tbody>
+
+           </tbody>
+       </table>
+    </div>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="372cfe14f3ec802e453f915a-|49" defer=""></script>
+</body>
+</html>
+
+
